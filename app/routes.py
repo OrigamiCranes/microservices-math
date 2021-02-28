@@ -17,8 +17,6 @@ def average():
     math_block = json.loads(math_block)
     math_block = json.dumps({'MA-5': math_block})
 
-    with open('data.json', 'w') as f:
-        json.dump(math_block, f)
     return math_block
 
 
